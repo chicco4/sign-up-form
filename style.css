@@ -1,24 +1,143 @@
+:root {
+    --first: #7DCFF2;
+    --second: #09080C;
+    --third: #B8F0FE;
+    --fourth: #2A59C4;
+    --fifth: #6199F8;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /*outline: 1px solid red;*/
+}
+
 .content {
     display: flex;
-    flex-direction: row;
-    justify-items: center;
-    align-items: center;
+    flex-flow: row;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* left side */
+
+.logo {
+    display: flex;
+    flex-flow: row;
 }
 
 .left {
     background-image: url(./anna-delliou-xOzLbW4f7UM-unsplash.jpg);
     background-position: center;
-    background-size: auto;
+    background-size: cover;
     background-repeat: no-repeat;
     width: 40vw;
-
-    justify-content: center;
-    align-content: center;
 }
+
+
+.logo {
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: relative;
+    top: 20vh;
+    gap: 1vw;
+    padding: 15px 0;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+}
+
+.odin {
+    height: 10vh;
+}
+
+/* right side */
 
 .right {
     display: flex;
     flex-direction: column;
-    justify-items: center;
-    align-items: center;
+    justify-content: center;
+    width: 60vw;
+    padding-left: 3vw;
+    background-color: var(--fourth);
+    color: var(--third);
+}
+
+.dummy-text {
+    font-weight: 500;
+    width: 90%;
+    font-size: 1.2rem;
+}
+
+.remote-text {
+    margin: 30px 0 60px;
+    font-size: 1.7rem;
+}
+
+.form {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-title {
+    width: 100%;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.form-input {
+    display: flex;
+    flex-direction: row;
+    font-size: large;
+    gap: 10px;
+}
+
+.form-details {
+    display: flex;
+    flex-direction: column;
+    color: var(--third);
+    width: 50%;
+}
+
+.form-input input {
+    border-color: var(--first);
+    background-color: var(--third);
+    font-size: large;
+}
+
+button {
+    font-weight: 700;
+    font-size: 1.2em;
+    padding: 10px 40px;
+    margin: 30px 0;
+    border-color: var(--first);
+    background-color: var(--third);
+    color: #09080C;
+}
+
+button:hover {
+    background-color: white;
+}
+
+.log-in {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    width: 90%;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color);
+    font-weight: larger;
+}
+
+a:hover {
+    color: white;
 }
