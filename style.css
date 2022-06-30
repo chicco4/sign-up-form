@@ -2,7 +2,7 @@
     --first: #7DCFF2;
     --second: #09080C;
     --third: #B8F0FE;
-    --fourth: #2A59C4;
+    --fourth: #0f3fb0;
     --fifth: #6199F8;
 }
 
@@ -87,8 +87,12 @@ h1 {
 
 .form-title {
     width: 100%;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: 500;
+}
+
+label {
+    color: white;
 }
 
 .form-input {
