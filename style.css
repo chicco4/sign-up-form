@@ -1,0 +1,24 @@
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+}
+
+.left {
+    background-image: url(./anna-delliou-xOzLbW4f7UM-unsplash.jpg);
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 40vw;
+
+    justify-content: center;
+    align-content: center;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
